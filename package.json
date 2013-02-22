@@ -1,6 +1,6 @@
 {
 	"name": "xz-pipe",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Sebastian Vollnhals <sebastian@vollnhals.info>",
 	"description": "pipes for xz",
 	"main": "./xz.js",
