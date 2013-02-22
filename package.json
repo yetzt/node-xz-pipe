@@ -1,0 +1,17 @@
+{
+	"name": "xz-pipe",
+	"version": "0.0.1",
+	"author": "Sebastian Vollnhals <sebastian@vollnhals.info>",
+	"description": "pipes for xz",
+	"main": "./xz.js",
+	"licenses": {
+		"type": "Public Domain",
+		"url": "http://creativecommons.org/publicdomain/mark/1.0/"
+	},
+	"dependencies": {
+		"comandante": "= 0.0.1"
+	},
+	"engines": {
+		"node": ">= 0.8.15"
+	}
+}
