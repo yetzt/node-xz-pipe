@@ -4,6 +4,10 @@
 	"author": "Sebastian Vollnhals <sebastian@vollnhals.info>",
 	"description": "pipes for xz",
 	"main": "./xz.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yetzt/node-xz-pipe.git"
+	},
 	"licenses": {
 		"type": "Public Domain",
 		"url": "http://creativecommons.org/publicdomain/mark/1.0/"
