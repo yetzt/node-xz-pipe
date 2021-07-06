@@ -8,10 +8,11 @@ var xz = null;
 
 (function(){
 	if (!'PATH' in process.env) return;
-	var p = process.env.PATH.split(/:/g);
+	var p = process.env.PATH.split(path.delimiter);
+	var x = process.platform === 'win32' ? 'xz.exe' : 'xz';
 	for (var i = 0; i < p.length; i++) {		
-		if (fs.existsSync(path.resolve(p[i], 'xz'))) {
-			xz = path.resolve(p[i], 'xz');
+		if (fs.existsSync(path.resolve(p[i], x))) {
+			xz = path.resolve(p[i], x);
 			break;
 		}
 	};
