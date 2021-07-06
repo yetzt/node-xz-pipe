@@ -1,7 +1,7 @@
 {
 	"name": "xz-pipe",
-	"version": "0.0.2",
-	"author": "Sebastian Vollnhals <sebastian@vollnhals.info>",
+	"version": "0.0.3",
+	"author": "yetzt <node@yetzt.me>",
 	"description": "pipes for xz",
 	"main": "./xz.js",
 	"repository": {
